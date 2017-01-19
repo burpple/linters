@@ -27,7 +27,6 @@ module Linters
           hash2
         end
       end
-
       default_config.merge(custom_config, &deep_merger)
     end
 
