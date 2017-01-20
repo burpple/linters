@@ -19,7 +19,7 @@ module Linters
 
       # Object to parse linter output, returning hash with line numbers and
       # messages of the issues
-      # @return [#parse] the Tokenizer object
+      # @return [#parse] a Tokenizer object implementing `#parse`
       def tokenizer
         raise NotImplementedError, "implement #tokenizer in your Options class"
       end
