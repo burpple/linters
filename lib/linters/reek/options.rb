@@ -15,8 +15,8 @@ module Linters
         Tokenizer.new
       end
 
-      def config_content(_content)
-        nil
+      def config_content(content)
+        content
       end
     end
   end
