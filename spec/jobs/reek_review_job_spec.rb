@@ -19,12 +19,12 @@ RSpec.describe ReekReviewJob do
         violations: [
           {
             line: 1,
-            message: "IrresponsibleModule: Smelly has no descriptive comment"
+            message: "IrresponsibleModule: Smelly has no descriptive comment",
           },
           {
             line: 2,
-            message: "UncommunicativeMethodName: Smelly#x has the name 'x'"
-          }
+            message: "UncommunicativeMethodName: Smelly#x has the name 'x'",
+          },
         ]
       )
     end
