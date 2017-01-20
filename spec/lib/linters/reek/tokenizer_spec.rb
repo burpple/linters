@@ -10,7 +10,8 @@ describe Linters::Reek::Tokenizer do
         test.rb:9: IrresponsibleModule: LintersHelper has no descriptive comment
       OUTPUT
 
-      expected_message = "IrresponsibleModule: LintersHelper has no descriptive comment"
+      expected_message =
+        "IrresponsibleModule: LintersHelper has no descriptive comment"
 
       expect(parsed).to eq([{ line: 9, message: expected_message }])
     end
